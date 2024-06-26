@@ -4,7 +4,15 @@
 
 The YOLOv5 and Scaled-YOLOv4 implementations are cloned from the following repositories-
 - <https://github.com/ultralytics/yolov5>
+  - Use Command:
+    ```
+    !git clone https://github.com/ultralytics/yolov5 
+    ```
 - <https://github.com/roboflow-ai/ScaledYOLOv4.git> (which is also forked from <https://github.com/WongKinYiu/ScaledYOLOv4>)
+  - Use Command:
+    ```
+    !git clone https://github.com/roboflow-ai/ScaledYOLOv4.git
+    ```
 
 ## Dataset
 
@@ -25,3 +33,4 @@ The dataset is prepared by manually selecting images from the [PlantVillage](htt
     ```
     !python detect.py --weights best.pt --img 256 --conf 0.25 --source image_name.jpg
     ```
+- The results and model weights are saved inside the 'runs' folder (inside the cloned model implementation folder) after training is complete.
