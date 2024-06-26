@@ -1,0 +1,9 @@
+# train and val data
+train: ../dataset/images/train/
+val: ../dataset/images/val/
+
+# number of classes
+nc: 11
+
+# class names
+names: ['Corn_Common_Rust', 'Corn_Healthy', 'Corn_Northern_Leaf_Blight', 'Potato_Early_Blight','Potato_Healthy','Potato_Late_Blight','Tomato_Bacterial_Spot','Tomato_Early_Blight','Tomato_Healthy','Tomato_Late_Blight','Tomato_Mosiac_Virus']
