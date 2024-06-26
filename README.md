@@ -24,7 +24,7 @@ The dataset is prepared by manually selecting images from the [PlantVillage](htt
   YOLOv5/yolov5/dataset.yaml.
   ```
 - The models can be trained by using the 'Training_and_Inference' notebooks provided inside the 'YOLOv5' and 'Scaled YOLOv4' folders.
-- The models can also be trained by directly running the commands in the console (which I personally prefer). In this case, the repository for the model implementation must be cloned in the local directory. For example:
+- The models can also be trained by directly running the commands in the console (which I personally prefer). In this case, the repository for the model implementation must be cloned in the local directory beforehand. Some example commands:
   - Command for training:
    ```
    !python train.py --img 256 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5s.pt --cache
